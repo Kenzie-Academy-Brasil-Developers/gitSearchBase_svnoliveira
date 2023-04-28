@@ -1,0 +1,61 @@
+header {
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header__profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+#header__profile-container > img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: solid 2px var(--color-brand-1)
+}
+
+#main__repository-cards___container {
+    display: flex;
+    justify-content: center;
+}
+
+#main__repository-cards___container > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container > .main__repository-card {
+    width: 29rem;
+    height: 15.25rem;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 2.5rem 1.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container > .main__repository-card:hover, .container > .main__repository-card:active {
+    background-color: var(--color-grey-1);
+    border-color: var(--color-grey-7);
+}
+
+.container > .main__repository-card > p{
+    color: var(--color-grey-6);
+}
+

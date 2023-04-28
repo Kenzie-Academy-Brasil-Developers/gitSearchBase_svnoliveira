@@ -12,11 +12,25 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/globalStyles.css">
+    <link rel="stylesheet" href="../styles/error.css">
 
+    <script type="module" src="../scripts/error.js" defer></script>
     <title>Git Search - User Not Found</title>
   </head>
   <body>
-
-    <script type="module" src="../scripts/error.js"></script>
+    <main>
+      <div id="error__container" class="container">
+        <div id="error__text-container">
+          <h1 class="text-alert">Ooops!</h1>
+          <p class="text-large">Não encotramos o usuário que você procurou, <span class="text-large">vamos tentar novamente.</span></p>
+          <button class="button--pink">Nova Busca</button>
+        </div>
+        <div id="error__icon-container">
+          <img src="../images/warning.svg" alt="Ícone de cuidado">
+        </div>
+      </div>
+    </main>
   </body>
 </html>

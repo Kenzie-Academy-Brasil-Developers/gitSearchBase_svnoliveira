@@ -13,10 +13,33 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+
+    <script type="module" src="./src/scripts/index.js" defer></script>
+
     <title>Git Search</title>
   </head>
   <body>
-
-    <script type="module" src="./src/scripts/index.js"></script>
+    <main>
+      <section id="main__home-container">
+        <div id="main__container--left">
+          <div>
+            <h1 class="tittle-1">Git Search</h1>
+            <p class="text-large">Encontre e se conecte com profissionais de forma rápida e fácil</p>
+          </div>
+        </div>
+        <div id="main__container--right">
+          <form>
+            <h2 class="tittle-2">Procurar por um usuário</h2>
+            <h3 class="text-bolder">Usuário github</h3>
+            <input type="text" placeholder="Digite um usuário do github aqui..." required>
+            <button type="submit" class="button--pink">Ver perfil do github</button>
+          </form>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
+  

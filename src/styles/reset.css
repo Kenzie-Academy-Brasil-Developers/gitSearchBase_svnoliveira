@@ -1,0 +1,8 @@
+body, main, div, form, h2, h3, input, button, h1, p, img, header, ul, li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+}

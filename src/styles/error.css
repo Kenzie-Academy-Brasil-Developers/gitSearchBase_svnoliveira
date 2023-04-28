@@ -1,0 +1,41 @@
+main, #error__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#error__container {
+    flex-direction: row;
+    gap: 10rem;
+    height: 100vh;
+}
+
+#error__text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 25rem;
+}
+
+#error__icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25rem;
+    height: 21.875rem;
+    background-color: var(--color-brand-2);
+    box-shadow: 27px 26px 0px -2px rgba(81,15,132,1);
+    border-radius: 0.6rem;
+}
+
+#error__text-container > p {
+    font-size: 1rem;
+}
+
+#error__text-container > p > span {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+#error__text-container > button {
+    font: var(--text-large);
+}

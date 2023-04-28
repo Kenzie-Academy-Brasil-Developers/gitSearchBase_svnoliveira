@@ -9,4 +9,106 @@
   --color-grey-7: #ffffff;
   --color-alert: #c22554;
   --font-primary: "Inter", sans-serif;
+
+  --text-large: 400 1.25rem/1.875rem 'Inter';
+  --text-normal: 400 0.875rem/1.313rem 'Inter';
+  --text-bolder: 500 0.875rem/1.313rem 'Inter';
+  --text-alert: 700 2.375rem/3.125rem 'Inter';
+
+  --tittle-0: 700 1.5rem/1.875rem 'Inter';
+  --tittle-1: 600 2rem/3rem 'Inter';
+  --tittle-2: 500 1.25rem/1.875rem 'Inter';
+}
+
+body {
+  background-color: var(--color-grey-2);
+  color: var(--color-grey-7);
+  font-family: var(--font-primary);
+}
+
+.container {
+  width: 60rem;
+}
+
+.tittle-0 {
+  font: var(--tittle-0);
+}
+
+.tittle-1 {
+  font: var(--tittle-1);
+}
+
+.tittle-2 {
+  font: var(--tittle-2);
+}
+
+.text-large {
+  font: var(--text-large);
+}
+
+.text-normal {
+  font: var(--text-normal);
+}
+
+.text-bolder {
+  font: var(--text-bolder);
+}
+
+.text-alert {
+  font: var(--text-alert);
+}
+
+input {
+  background-color: var(--color-grey-1);
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  color: var(--color-grey-7);
+  font: var(--text-normal);
+}
+
+.button--pink {
+  background-color: var(--color-brand-2);
+  color: var(--color-grey-7);
+  font: var(--text-bolder);
+  border-radius: 0.25rem;
+  padding: 0.8rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button--pink:hover {
+  background-color: var(--color-brand-1);
+}
+
+.button--grey {
+  background-color: var(--color-grey-4);
+  color: var(--color-grey-7);
+  font: 600 0.875rem 'Inter';
+  height: fit-content;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button--grey:hover {
+  background-color: var(--color-brand-1);
+}
+
+.button--outlined {
+  padding: 0.344rem 0.5rem;
+  width: fit-content;
+  background-color: var(--color-grey-2);
+  border: solid 2px var(--color-grey-7);
+  border-radius: 0.25rem;
+  color: var(--color-grey-7);
+  font: var(--text-bolder);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button--outlined:hover {
+  border-color: var(--color-brand-2);
+  background-color: var(--color-brand-2);
 }
